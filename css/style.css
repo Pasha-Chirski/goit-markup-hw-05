@@ -549,7 +549,10 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.model-btn:hover,
+.model-btn:hover {
+  background-color: #404bbf;
+  border: none;
+}
 .model-btn:focus {
   background-color: #404bbf;
   border: none;
@@ -558,9 +561,11 @@ button {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.model-svg:hover,
+.model-svg:hover {
+  fill: #fff;
+}
 .model-svg:focus {
-  fill: #ffffff;
+  fill: #fff;
 }
 
 .model-text {
