@@ -667,3 +667,8 @@ button {
   fill: transparent;
   margin-right: 8px;
 }
+.input-checkbox:checked + .label-checkbox > .span-checkbox {
+  background-color: #404bbf;
+  fill: #fff;
+  border: none;
+}
