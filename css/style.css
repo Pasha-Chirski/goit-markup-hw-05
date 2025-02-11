@@ -448,7 +448,7 @@ button {
 .footer-subscribe-text {
   margin-bottom: 16px;
   font-weight: 500;
-  font-family: 16px;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
@@ -472,26 +472,11 @@ button {
   border-radius: 4px;
   color: #ffffff;
 }
-
 .footer-address::placeholder {
   color: #ffffff;
 }
-.footer-btn {
-  min-width: 165px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #4d5ae5;
-  border: none;
-  border-radius: 4px;
+footer-svg {
+  fill: #2e2f42;
 }
 /* .backdrop {
   width: 100%;

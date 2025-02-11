@@ -25,8 +25,8 @@
         }
       ],
       "properties": {
-        "order": 14,
-        "id": 0,
+        "order": 15,
+        "id": 1,
         "name": "icon-send",
         "prevSize": 32
       },
@@ -60,7 +60,10 @@
       "color": 0,
       "bgColor": 16777215,
       "classSelector": ".icon",
-      "name": "icomoon"
+      "name": "icomoon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
     },
     "historySize": 50,
     "showCodes": true,
